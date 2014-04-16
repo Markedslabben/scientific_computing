@@ -23,6 +23,9 @@ Files shared:
 
  Data files: dataFile, PC.pws
 
+########Useage: $ python main.py dataFile PC.pws 
+
+
  The same energy computation functions in c are provided in: cFunction.c
  
 
