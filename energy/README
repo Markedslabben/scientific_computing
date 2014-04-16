@@ -37,11 +37,3 @@ Additional info:
 
 
 
-**************************************      Task2      **************************************
-
-# The data (each line) in dataFile may not be unique but repeating
-# That is only n unique lines (data)  from a total of N lines 
-
-# Outcome: Return two lists:
-				1) location of the 'n' unique lines 
-				2) of all N points: pointing to the first unique data from n  
