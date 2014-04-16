@@ -1,0 +1,44 @@
+Files shared:
+# Python:	main.py
+		readFiles.py
+		pyFunctions.py
+# C:		cFunction.c
+
+# Data file:    dataFile
+		PC.pws
+
+# Platform: Linux - Debian/Ubuntu
+
+
+
+
+**************************************      Task1      **************************************
+
+# Python isn't very efficient when it has to go through many for loops for computation.
+ Purpose of this task is to speed up the computations by rewriting some functions from Python in C/C++
+
+# We provide a test script main.py which performs the operation:
+								1) reading data from files (uses functions readFiles.py)
+								2) Performing enegy computation (uses functions in pyFunctions.py)
+
+ Data files: dataFile, PC.pws
+
+ The same energy computation functions in c are provided in: cFunction.c
+ 
+
+# Outcome: A test script to demonstrate C function integrated into the python script with a speed-up using profiling tools.
+
+Additional info:
+# If you use ctypes - you will need to share the commands used to compile a static/dynamic library of the C functions 
+# If there are recommendations for speeding up the file read 
+
+
+
+**************************************      Task2      **************************************
+
+# The data (each line) in dataFile may not be unique but repeating
+# That is only n unique lines (data)  from a total of N lines 
+
+# Outcome: Return two lists:
+				1) location of the 'n' unique lines 
+				2) of all N points: pointing to the first unique data from n  
