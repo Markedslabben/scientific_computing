@@ -14,16 +14,16 @@ Files shared:
 
 **************************************      Task1      **************************************
 
-# Python isn't very efficient when it has to go through many for loops for computation.
+# Python isn't very efficient when it has to go through many for-loops for computation.
  Purpose of this task is to speed up the computations by rewriting some functions from Python in C/C++
 
 # We provide a test script main.py which performs the operation:
 								1) reading data from files (uses functions readFiles.py)
-								2) Performing enegy computation (uses functions in pyFunctions.py)
+								2) Performing energy computation (uses functions in pyFunctions.py)
 
  Data files: dataFile, PC.pws
 
-########Useage: $ python main.py dataFile PC.pws 
+########Usage: $ python main.py dataFile PC.pws 
 
 
  The same energy computation functions in c are provided in: cFunction.c
